@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/myColor2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:baselineAligned="false">
+
+            <ExpandableListView android:id="@+id/myList"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".60"
+                android:layout_margin="2dp"
+                android:cacheColorHint="#CCCCCDDE"
+                android:fastScrollAlwaysVisible="false"
+                android:fadeScrollbars="false"
+                android:background="@color/myColor2"
+                android:divider="@android:drawable/divider_horizontal_textfield"
+                />
+
+            <ListView
+                android:id="@+id/lvStatuses"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight=".40"
+                android:background="@color/myColor2"
+                android:cacheColorHint="#CCCCCDDE"
+                android:divider="@android:drawable/divider_horizontal_textfield"
+                android:fadeScrollbars="false"
+                android:fastScrollAlwaysVisible="false" >
+
+            </ListView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+.idea
+.idea/*
+.tmp
+.classpath
+.settings
+.project
+.DS_Store
+.gradle
+/.metadata/
+*.iml
+build
+dist
+node_modules
+bower_components
+target
+bin

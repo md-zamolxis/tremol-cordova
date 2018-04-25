@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">FDKB</string>
+    <string name="charset">cp1251</string><!-- "cp1251" UTF-8-->
+
+    <!--  MainAct -->
+    <string name="bt_not_av">Bluetooth is not available</string>
+    <string name="conn_fp_info">Connected FP info</string>
+    <string name="err">Error: </string>
+    <string name="err_connect_usb">Error while connecting to USB device</string>
+    <string name="connected_to">Connected to </string>
+    
+    <!--  BtService -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to Fiscal Device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving ....</string>
+    <string name="title_connecting">CONNECTING...</string>
+    <string name="title_connected_to">Connected: </string>
+    <string name="title_not_connected">Not connected</string>
+    <string name="unable_to_connect">Unable to connect to device</string>
+    <string name="unable_to_recognize_country">Please choose device country</string>
+    <string name="dev_conn_lost">Device connection was lost</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning for devices ....</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_usb_devices">USB Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <!-- Bon -->
+    <string name="qty_already_entered">Quantity already entered</string>
+    <string name="qty_not_valid">Quantity not valid</string>
+    <string name="art_num_not_valid">Article number not valid</string>
+    <string name="unable_to_load_art">Unable to load article</string>
+    <string name="price_not_valid">Price not valid</string>
+    <string name="dep_num_not_valid">Department number not valid</string>
+    <string name="waiting_dep_num">Expecting department number</string>
+    <string name="qty_not_entered">Quantity not entered</string>
+    <string name="art_not_programmed">Article not programmed</string>
+    <string name="price">price </string>
+    <string name="from_dep_num_"> from dep.№ ? (0 for free sale)</string>
+    <string name="waiting_for_price_or_artnum">Expecting price or article number </string>
+    
+    <string name="input">Input</string>
+    <string name="enter_art_name">Enter article name</string>
+    
+    <string name="choice">Choice</string>
+    <string name="choose_tax_gr">Choose tax group</string>
+    
+         
+    <string name="confirmation">Confirmation </string>
+     <string name="confirm_pls">Please, confirm </string>         
+    <string name="cancell_curr_sale">Cancel current sale ?</string> 
+    
+    <string name="conf_open_rec_completion">Opened fiscal receipt. Completion?</string>
+    <string name="compeeting_receip">Compleeting fiscal receipt</string> 
+    <string name="pass_open_rec">0000</string>
+    <string name="opening_rec">Opening receipt...</string>
+    <string name="calc_interm_sum">Calculating intermediate sum ....</string>
+    <string name="payment">Payment ....</string>
+    <string name="close_rec">Closing receipt ....</string>
+    
+    <string name="total">TOTAL..........</string><!--  Обща сума -->
+    <string name="receipt">FISCAL RECEIPT </string>
+    <string name="no_open_rec">No open receipt</string>
+     
+    <string name="dep">Dep.</string>
+    
+    <string name="free_sale">Free sale</string>
+    <string name="sum">Sum* </string>  <!-- 5 -->
+    
+     <!-- FPInfo -->
+    <string name="article">Article </string>
+    <string name="reading_articles">Loading articles ....</string>
+    <string name="reading_fd_info">Loading fiscal device info ....</string>
+    <string name="num_ser">Serial number</string>
+    <string name="num_fisc_mem">Fiscal memory number</string>
+    <string name="num_tax">Tax number</string>
+    <string name="cancel">Cancel</string>
+    <string name="Department">Department</string>
+    <string name="LoadDepartments">Loading departmens...</string>
+    <string name="LoadingClients">Loading Clients...</string>
+    <!-- Options Menu -->
+    <string name="invoiceOpen">Open invoice</string>
+    <string name="stornoReceiptOpen">Open storno receipt</string>
+    <string name="connect">Connect to Fiscal Device</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="FD">FD</string>
+    <string name="fisc_dev">Fiscal Device Options</string>
+    <string name="load_articles">Load articles (to first with 0 price)</string>
+    <string name="clear_log">Clear receipt log</string>
+    <!-- new strings added! -->
+    <string name="openBonWithDelayPrint">Receipt with delay print</string>
+    <string name="freeText">Free Text</string>
+    <string name="reversed">Reversed</string>
+    <string name="lowFont">Low font</string>
+    <string name="freeTextEsc">Free text (ESC)</string>
+    <string name="printFreeText">Print Free Text</string>
+    <string name="printFreeTextEsc">Print Free text (ESC)</string>
+    <string name="barcodeType">Barcode type</string>
+    <string name="barcode">Barcode</string>
+    <string name="printBarcode">Print barcode</string>
+    <string name="testTextRows">Test row 1\nTest row 2\nTest row 3\nTest row 4\nTest row 5"</string>
+    <string name="enter">Enter: </string>
+    <string name="directCmd">Direct command</string>
+    <string name="command">Command: </string>
+    <string name="chooseDep">Choose department</string>
+    <string name="errorServer">Error server </string>
+    <string name="unknownErr">Unknown error!</string>
+    <string name="ServNotOpen">Server is not open!</string>
+    <string name="fiscFunctions">Fiscal functions</string>
+    <string name="Zreport">Z report</string>
+    <string name="cancelReceipt">Cancel receipt</string>
+    <string name="closeReceiptInCash">Close receipt in cash</string>
+    <string name="exit">Exit from app?</string>
+    <string name="FSStart">File Server start!</string>
+    <string name="FSStop">File Server stop!</string>
+    <string name="FSXmlDemo">XML DEMO</string>
+    <string name="FSCreateFiles">Create files for free sales</string>
+    <string name="title_activity_fiscal_func">Fiscal Functions</string>
+    <string name="title_activity_xml_files">XML files list</string>
+    <string name="title_activity_xml">Fill XML command file</string>
+    <string name="title_activity_free_text">Free text functions</string>
+    <string name="action_settings">Settings</string>
+    <!--Statuses-->
+    <string name="autoCut">Auto Cut</string>
+    <string name="readOnly">Read Only FM</string>
+    <string name="decimalPoint">Decimal Point</string>
+    <string name="fiscFactoryNum">Fiscal and Factory number?</string>
+    <string name="transparentDisplay">Transparent Display</string>
+    <string name="WidthoutReport">24h without daily report</string>
+    <string name="clockHardwareError">Clock hardware error</string>
+    <string name="detailedInfoRec">Detailed Info receipt</string>
+    <string name="duplicate">Can print duplicate</string>
+    <string name="isFiscal">Is fiscal?</string>
+    <string name="FMnearFull">FM near limit</string>
+    <string name="FMfull">FM Full</string>
+    <string name="blockedWithoutReport">Blocked - 24h without Z report</string>
+    <string name="missingDisplay">Missing display</string>
+    <string name="missingFM">Missing FM</string>
+    <string name="nonZeroArticleRep">Non zero article report</string>
+    <string name="nonZeroDaily">Non zero daily report</string>
+    <string name="nonZeroOperatorRep">Non zero operator report</string>
+    <string name="openReceipt">Open receipt</string>
+    <string name="outOfPaper">Out of paper</string>
+    <string name="powerDown">Power down occurred during fiscal receipt</string>
+    <string name="overheat">Printer overheat</string>
+    <string name="printLogo">Print logo</string>
+    <string name="reportSumOverflow">Report sum overflow</string>
+    <string name="wrongDate">Wrong date</string>
+    <string name="VATinfo">VAT info</string>
+    <string name="officialBon">Open official bon</string>
+    <string name="wrongFM">Wrong FM</string>
+    <string name="wrongRAM">Wrong RAM</string>
+    <string name="wrongTimer">Wrong Timer</string>
+    <string name="wrongSIM">Wrong SIM card</string>
+    <string name="blockedNoMO">Blocked, No Mobile Operator</string>
+    <string name="modemNoTask">GPRS(modem) has not receive task</string>
+    <string name="missingSIM">Missing SIM card</string>
+    <string name="misingModem">Missing Modem</string>
+    <string name="missingMO">Missing Mobile Operator</string>
+    <string name="missingGPRS">Missing GPRS</string>
+    <string name="openedNonFiscalRcp">Non-Fiscal receipt opened</string>
+    <string name="openNonFiscalRcp">Open Non-Fiscal receipt</string>
+    <string name="openFiscalRcp">Open Fiscal receipt</string>
+    <string name="closeNonFiscalRcp">Close Non-Fiscal receipt</string>
+    <string name="closeFiscalRcp">Close Fiscal receipt</string>
+
+
+    <string name="notSetDateTime">Date Time not set</string>
+    <string name="fiscalBon">Fiscal receipt opened</string>
+    <string name="fiscRcpType1">Fiscal receipt type 1</string>
+    <string name="fiscRcpType2">Fiscal receipt type 2</string>
+    <string name="fiscRcpType3">Fiscal receipt type 3</string>
+    <string name="SDNearFull">SD card near full</string>
+    <string name="SDFull">SD card full</string>
+    <string name="SDWrong">Wrong SD card</string>
+    <string name="fullFM">FM Full</string>
+    <string name="nearFullFM">FM near Full</string>
+    <string name="autoOpenDrawer">Auto open drawer</string>
+    <string name="nearPaperEnd">Near paper end</string>
+    <string name="NoGprsService">No GPRS service</string>
+    <!--Accordion functions-->
+    <string name="makeZrep">Make Z report</string>
+    <string name="makeXrep">Make X report</string>
+    <string name="makeArtZrep">Article Z report</string>
+    <string name="makeArtXrep">Article X report</string>
+    <string name="departmentReport">Department report</string>
+    <string name="makeDepXreport">Department X report</string>
+    <string name="makeDepZreport">Department Z report</string>
+    <string name="makeOperatorsXreport">Operators X report</string>
+    <string name="makeOperatorsZreport">Operators X report</string>
+    <string name="makePurchaseReport">Y purchase report</string>
+    <string name="makeWeeklyPurchaseReport">Weekly purchase report</string>
+
+    <string name="setDT">Set Date/Time</string>
+    <string name="settingDT">Setting Date/Time</string>
+    <string name="version">Version</string>
+    <string name="showVersion">Show version of the device</string>
+    <string name="DT">Date/Time</string>
+    <string name="showDT">Show Date Time</string>
+    <string name="general">General</string>
+    <string name="reports">Reports</string>
+    <string name="readingCommands">Reading of</string>
+    <string name="programCommands">Programming of</string>
+    <string name="serialNumber">Serial Number</string>
+    <string name="fiscalMemoryNum">Fiscal memory number</string>
+    <string name="VATnumber">VAT number</string>
+    <string name="diagnostics">Diagnostics</string>
+    <string name="lineFeed">Line feed</string>
+
+    <string name="sales">Sales screen</string>
+    <string name="receiptOp">Receipt operation</string>
+    <string name="incorrectData">Incorrect input data</string>
+    <string name="ClientNo">Client Number</string>
+    <string name="ClientName">Receiver name</string>
+    <string name="buyerName">Buyer name</string>
+    <string name="ZDDSNo">ZDDS number</string>
+    <string name="Bulstat">Customer ID</string>
+    <string name="AdressBG">Address</string>
+    <string name="clientsDB">Data for clients</string>
+    <string name="chooseClient">Choose Client</string>
+    <string name="client">Client: </string>
+    <string name="PleaseEnterDBdata">Please enter data for client</string>
+    <string name="PleaseEnterAllFields">Please Enter all the fields</string>
+    <string name="DataSaved">The Data is store!</string>
+
+    <!--Program articles-->
+    <string name="programPLU">Program article</string>
+    <string name="PLUnumber">PLU number</string>
+    <string name="PLUname">PLU name</string>
+    <string name="PLUprice">PLU price</string>
+    <string name="PLUVAT">PLU VAT class</string>
+    <string name="programPLUbtn">Program</string>
+    <string name="readPLUbtn">Read</string>
+    <string name="readFirstAvailableBtn">First available</string>
+    <string name="DepNum">Department Number</string>
+    <string name="MeasureUnit">Measure Unit</string>
+    <string name="AdditionalName">Additional Name</string>
+    <string name="AvailableQty">Available Quantity</string>
+    <string name="Barcode">Barcode</string>
+    <string name="PLUflagQTY">Quantity flag</string>
+    <string name="PLUflagPrice">Price flag</string>
+    <string name="PLUflagOrigin">Origin flag</string>
+    <string name="MissingNumber">Missing number!</string>
+
+    <!--XML FILE SERVER-->
+    <string name="ReadFiles">Read XML files</string>
+    <string name="EditFiles">Edit XML files</string>
+    <string name="FileName">File name</string>
+    <string name="FolderMissing">XML folder is missing!</string>
+    <string name="Execute">Execute</string>
+</resources>

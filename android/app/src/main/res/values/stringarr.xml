@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!--  ‘А’,’Б’,’В’,’Г’,’Д’,’Е’,’Ж’ ‘З’  -->
+    <string-array name="tg_arr">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+</resources>

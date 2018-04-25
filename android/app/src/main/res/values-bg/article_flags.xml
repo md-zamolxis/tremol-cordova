@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="flagsQty">
+        <item>Количеството не се следи</item>
+        <item>Забранено отрицателно количество</item>
+        <item>Разрешено отрицателно количество</item>
+    </string-array>
+    <string-array name="flagsPrice">
+        <item>Само програмираната цена</item>
+        <item>Разрешена свободна цена</item>
+        <item>Лимитирана цена</item>
+    </string-array>
+    <string-array name="flagsOrigin">
+        <item>Вносни стоки</item>
+        <item>Местни стоки</item>
+    </string-array>
+</resources>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">FDKB</string>
+    <string name="charset">cp1251</string><!-- "cp1251" UTF-8-->
+
+    <!--  MainAct -->
+    <string name="bt_not_av">Bluetooth не е наличен</string>
+    <string name="conn_fp_info">Свързан FP info</string>
+    <string name="err">Грешка: </string>
+    <string name="err_connect_usb">Грешка при свързване с USB устройството</string>
+    <string name="connected_to">Свързан с </string>
+    
+    <!--  BtService -->
+    <string name="send">Изпраща</string>
+    <string name="not_connected">Не сте свързан с фискалното устройство</string>
+    <string name="bt_not_enabled_leaving">Bluetooth не е активиран. Излизане...</string>
+    <string name="title_connecting">СВЪРЗВАНЕ...</string>
+    <string name="title_connected_to">Свързан: </string>
+    <string name="title_not_connected">Не е свързан</string>
+    <string name="unable_to_connect">Неуспешен опит за връзка с устройството</string>
+    <string name="unable_to_recognize_country">Моля изберете държавата на ФУ.</string>
+    <string name="dev_conn_lost">Връзката с устройствата беше загубена</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Сканиране за устройства ....</string>
+    <string name="select_device">Изберете устройство за връзка</string>
+    <string name="none_paired">Няма сдвоени устройтва</string>
+    <string name="none_found">Няма открити устройства</string>
+    <string name="title_paired_devices">Сдвоени устройства</string>
+    <string name="title_other_devices">Други налични устройства</string>
+    <string name="title_usb_devices">USB устройства</string>
+    <string name="button_scan">Сканирай за устройства</string>
+    <!-- Bon -->
+    <string name="qty_already_entered">Количеството вече е въведено</string>
+    <string name="qty_not_valid">Количеството не е валидно</string>
+    <string name="art_num_not_valid">Номера на артикула не е валиден</string>
+    <string name="unable_to_load_art">Неуспешно зареждане на артикули</string>
+    <string name="price_not_valid">Невалидна цена</string>
+    <string name="dep_num_not_valid">Номера на департамента не е валиден</string>
+    <string name="waiting_dep_num">Очаква се номер на департамент</string>
+    <string name="qty_not_entered">Количеството не е въведено</string>
+    <string name="art_not_programmed">Артикулът не е програмиран</string>
+    <string name="price">цена </string>
+    <string name="from_dep_num_"> От деп.№ ? (0 за свободна продажба)</string>
+    <string name="waiting_for_price_or_artnum">Очаква се цина или номер на артикул </string>
+    
+    <string name="input">Въведи</string>
+    <string name="enter_art_name">Въведи име на артикул</string>
+    
+    <string name="choice">Избор</string>
+    <string name="choose_tax_gr">Изберете данъчна група</string>
+    
+         
+    <string name="confirmation">Потвърждаване </string>
+     <string name="confirm_pls">Моля потвърдете </string>
+    <string name="cancell_curr_sale">Отказване на текуща продажба ?</string>
+    
+    <string name="conf_open_rec_completion">Отворена фискална бележка. Завършване?</string>
+    <string name="compeeting_receip">Завършване на фискална бележка</string>
+    <string name="pass_open_rec">0000</string>
+    <string name="opening_rec">Отваряне на бележка...</string>
+    <string name="calc_interm_sum">изчисляване на междинна сума...</string>
+    <string name="payment">Плащане...</string>
+    <string name="close_rec">Затваряне на бележка...</string>
+    
+    <string name="total">ОБЩА СУМА......</string><!--  Обща сума -->
+    <string name="receipt">ФИСКАЛНА БЕЛЕЖКА </string>
+    <string name="no_open_rec">Не е отворена бележка</string>
+     
+    <string name="dep">Деп.</string>
+    
+    <string name="free_sale">Свободна продажба</string>
+    <string name="sum">Сума* </string>  <!-- 5 -->
+    
+     <!-- FPInfo -->
+    <string name="article">Артикул </string>
+    <string name="reading_articles">Зареждане на артикули ....</string>
+    <string name="reading_fd_info">Зареждане на фискални данни ....</string>
+    <string name="num_ser">Сериен номер </string>
+    <string name="num_fisc_mem">Номер на фискална памет</string>
+    <string name="num_tax">Данъчен номер</string>
+    <string name="cancel">Отказ</string>
+    <string name="Department">Департамент</string>
+    <string name="LoadDepartments">Изтегляне на департаменти</string>
+    <!-- Options Menu -->
+    <string name="invoiceOpen">Фактура</string>
+    <string name="stornoReceiptOpen">Отваряне на сторно бележка</string>
+    <string name="connect">Връзка с фискално устройство</string>
+    <string name="discoverable">Направи видимо устройство</string>
+    <string name="FD">ФУ</string>
+    <string name="fisc_dev">Опции на ФУ</string>
+    <string name="load_articles">Зареждане на артикули (to first with 0 price)</string>
+    <string name="clear_log">Изчистване на лога</string>
+    <!-- new strings added! -->
+    <string name="openBonWithDelayPrint">Бележка с отложен печат</string>
+    <string name="freeText">Свободен текст</string>
+    <string name="reversed">Обърнат</string>
+    <string name="lowFont">Нисък шрифт</string>
+    <string name="freeTextEsc">Свободен текст (ESC)</string>
+    <string name="printFreeText">Печат на свободен текст</string>
+    <string name="printFreeTextEsc">Печат на свободен текст (ESC)</string>
+    <string name="barcodeType">Тип на баркода</string>
+    <string name="printBarcode">Печат на баркод</string>
+    <string name="barcode">Баркод</string>
+    <string name="testTextRows">Тестов ред 1\nТестов ред 2\nТестов ред 3\nТестов ред 4\nТестов ред 5"</string>
+    <string name="enter">Въведи: </string>
+    <string name="directCmd">Директна команда</string>
+    <string name="command">Команда: </string>
+    <string name="chooseDep">Избери департамент</string>
+    <string name="errorServer">Грешка в сървъра </string>
+    <string name="unknownErr">Неизвестна грешка!</string>
+    <string name="ServNotOpen">Сървърът не е пуснат!</string>
+    <string name="fiscFunctions">Фискални функции</string>
+    <string name="Zreport">Z отчет</string>
+    <string name="cancelReceipt">Канселиране на бон</string>
+    <string name="closeReceiptInCash">Приключване в брой</string>
+    <string name="exit">Изход от приложението?</string>
+
+
+    <string name="FSStart">Файлов Сървър старт!</string>
+    <string name="FSStop">Файлов Сървър стоп!</string>
+    <string name="FSXmlDemo">XML DEMO</string>
+    <string name="FSCreateFiles">Създаване на файлове за свободни продажби</string>
+    <string name="title_activity_fiscal_func">Фискални функции</string>
+    <string name="title_activity_xml_files">Списък с XML файлове</string>
+    <string name="title_activity_xml">Попълване на XML файл</string>
+    <string name="title_activity_free_text">Печат на свободен текст</string>
+    <string name="action_settings">Настройки</string>
+    <!--Statuses-->
+    <string name="autoCut">Автоматично срязване на хартията</string>
+    <string name="readOnly">ФП достъпна само за четене</string>
+    <string name="decimalPoint">Десетична точка</string>
+    <string name="fiscFactoryNum">Фискален и Сериен номер?</string>
+    <string name="transparentDisplay">Прозрачен Дисплей</string>
+    <string name="WidthoutReport">24 часа без дневен отчет</string>
+    <string name="clockHardwareError">Хардуерна грешка в часовника</string>
+    <string name="detailedInfoRec">Детайлна информация в бона</string>
+    <string name="duplicate">Принтиране на дубликат?</string>
+    <string name="isFiscal">Фискализирано устройство?</string>
+    <string name="FMnearFull">ФП почти пълна</string>
+    <string name="FMfull">ФП Пълна</string>
+    <string name="blockedWithoutReport">Блокирано ФУ - 24 часа без дневен отчет</string>
+    <string name="missingDisplay">Липсва дисплей</string>
+    <string name="missingFM">Липсва ФП</string>
+    <string name="nonZeroArticleRep">Няма отчет по артикули</string>
+    <string name="nonZeroDaily">Няма дневен отчет</string>
+    <string name="nonZeroOperatorRep">Няма отчет по оператори</string>
+    <string name="openReceipt">Отворена бележка</string>
+    <string name="outOfPaper">Няма хартия</string>
+    <string name="powerDown">Прекъсване на захранването при отворен фиск. бон</string>
+    <string name="overheat">Принтера е прегрял</string>
+    <string name="printLogo">Печат на лого</string>
+    <string name="reportSumOverflow">Сумата в отчета е превишена</string>
+    <string name="wrongDate">Грешна дата</string>
+    <string name="VATinfo">ДДС информация</string>
+    <string name="officialBon">Отворена официална бележка</string>
+    <string name="wrongFM">Грешна ФП</string>
+    <string name="wrongRAM">Грешна RAM</string>
+    <string name="wrongTimer">Грешен таймер</string>
+    <string name="wrongSIM">Грешна SIM карта</string>
+    <string name="blockedNoMO">Блокировка, няма мобилен оператор</string>
+    <string name="modemNoTask">ДТ не е получил задача</string>
+    <string name="missingSIM">Липсва SIM карта</string>
+    <string name="misingModem">Липсва ДТ</string>
+    <string name="missingMO">Липсва мобиен оператор</string>
+    <string name="missingGPRS">Липсва GPRS услуга</string>
+
+
+    <string name="openedNonFiscalRcp">Отворена нефискална бележка</string>
+    <string name="openNonFiscalRcp">Отваряне на нефискална бележка</string>
+    <string name="openFiscalRcp">Отваряне на фискална бележка</string>
+    <string name="closeNonFiscalRcp">Затваряне на нефискална бележка</string>
+    <string name="closeFiscalRcp">Затваряне на фискална бележка</string>
+    <string name="notSetDateTime">Несверен часовник</string>
+    <string name="fiscalBon">Отворена фискална бележка</string>
+    <string name="fiscRcpType1">Фискална бележка тип 1</string>
+    <string name="fiscRcpType2">Фискална бележка тип 2</string>
+    <string name="fiscRcpType3">Фискална бележка тип 3</string>
+    <string name="SDNearFull">SD картата е почти пълна</string>
+    <string name="SDFull">SD е пълна</string>
+    <string name="SDWrong">Грешна SD карта</string>
+    <string name="fullFM">ФП е пълна</string>
+    <string name="nearFullFM">ФП е почти пълна</string>
+    <string name="autoOpenDrawer">Автоматично отваряне на чекмедже</string>
+    <string name="nearPaperEnd">Наближава край хартия</string>
+    <string name="NoGprsService">Липсва GPRS услуга</string>
+    <!--Accordion functions-->
+    <string name="makeZrep">Направи Z отчет</string>
+    <string name="makeXrep">Направи X отчет</string>
+    <string name="makeArtZrep">Артикулен отчет с нулиране</string>
+    <string name="makeArtXrep">Артикулен отчет без нулиране</string>
+    <string name="departmentReport">Отчет по департаменти</string>
+    <string name="makeDepXreport">Отчет по департаменти без нулиране</string>
+    <string name="makeDepZreport">Отчет по департаменти с нулиране</string>
+    <string name="makeOperatorsXreport">Отчет по опратори без нулиране</string>
+    <string name="makeOperatorsZreport">Отчет по опратори с нулиране</string>
+    <string name="makePurchaseReport">Y purchase report</string>
+    <string name="makeWeeklyPurchaseReport">Weekly purchase report</string>
+
+    <string name="setDT">Сверяване на дата и час</string>
+    <string name="settingDT">Свери датата и времето от устройството</string>
+    <string name="version">Версия</string>
+    <string name="showVersion">Покажи версията на устройството</string>
+    <string name="DT">Дата и Час</string>
+    <string name="showDT">Четене на дата и час</string>
+    <string name="general">Общи</string>
+    <string name="reports">Отчети</string>
+    <string name="readingCommands">Четене на</string>
+    <string name="programCommands">Програмиране на</string>
+    <string name="serialNumber">Сериен номер</string>
+    <string name="fiscalMemoryNum">Номер на фискалната памет</string>
+    <string name="VATnumber">Идентификационен номер</string>
+    <string name="diagnostics">Диагностика</string>
+    <string name="lineFeed">Изтикване на хартия</string>
+
+    <string name="sales">Екран с продажби</string>
+    <string name="receiptOp">Операции с бонове</string>
+    <string name="incorrectData">Грешни входни данни</string>
+    <string name="clientsDB">Данни за клиент</string>
+    <string name="ClientNo">Номер на клиент</string>
+    <string name="ClientName">Получател</string>
+    <string name="buyerName">Купувач</string>
+    <string name="ZDDSNo">ЗДДС номер</string>
+    <string name="Bulstat">ЕИК</string>
+    <string name="AdressBG">Адрес</string>
+    <string name="LoadingClients">Зареждане клиенти...</string>
+    <string name="chooseClient">Избери клиент</string>
+    <string name="client">Клиент: </string>
+    <string name="PleaseEnterDBdata">Моля въведете данни за клиент</string>
+    <string name="PleaseEnterAllFields">Моля въведете всички полета</string>
+    <string name="DataSaved">Данните са записани!</string>
+
+    <!--Program articles-->
+    <string name="programPLU">Програмиране на артикул</string>
+    <string name="PLUnumber">Артикул номер</string>
+    <string name="PLUname">Артикул име</string>
+    <string name="PLUprice">Артикул цена</string>
+    <string name="PLUVAT">Данъчна група</string>
+    <string name="programPLUbtn">Програмиране</string>
+    <string name="readPLUbtn">Четене</string>
+    <string name="readFirstAvailableBtn">Първи свободен</string>
+    <string name="DepNum">Номер на департамент</string>
+    <string name="MeasureUnit">Мерна единица</string>
+    <string name="AdditionalName">Допълнително име</string>
+    <string name="AvailableQty">Налично количество</string>
+    <string name="Barcode">Баркод</string>
+    <string name="PLUflagQTY">Флагове количество</string>
+    <string name="PLUflagPrice">Флагове цена</string>
+    <string name="PLUflagOrigin">Произход</string>
+    <string name="MissingNumber">Липсва номер!</string>
+
+    <!--XML FILE SERVER-->
+    <string name="ReadFiles">Прочети XML файловете</string>
+    <string name="EditFiles">Попълване на XML файл</string>
+    <string name="FileName">Име на файла</string>
+    <string name="FolderMissing">Липсва папка с XML файлове!</string>
+    <string name="Execute">Изпълни</string>
+</resources>

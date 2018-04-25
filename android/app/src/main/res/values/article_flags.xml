@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="flagsQty">
+        <item>Quantity not calculated</item>
+        <item>Negative quantity forbidden</item>
+        <item>Negative quantity allowed</item>
+    </string-array>
+    <string-array name="flagsPrice">
+        <item>Programmed price only</item>
+        <item>Free price enabled</item>
+        <item>Limited price</item>
+    </string-array>
+    <string-array name="flagsOrigin">
+        <item>Imported goods</item>
+        <item>Local goods</item>
+    </string-array>
+</resources>

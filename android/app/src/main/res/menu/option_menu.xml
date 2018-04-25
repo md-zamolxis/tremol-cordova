@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/receipt"
+        android:icon="@android:drawable/ic_menu_report_image"
+        android:showAsAction="always"
+        android:title="@string/receiptOp">
+        <menu>
+            <item
+                android:id="@+id/openInvoice"
+                android:title="@string/invoiceOpen"
+                android:visible="false" />
+            <item
+                android:id="@+id/openStorno"
+                android:title="@string/stornoReceiptOpen"
+                android:visible="false" />
+            <item
+                android:id="@+id/freeText"
+                android:title="@string/freeText" />
+            <item
+                android:id="@+id/freeSale"
+                android:title="@string/free_sale" />
+            <item
+                android:id="@+id/cancelReceipt"
+                android:title="@string/cancelReceipt" />
+            <item
+                android:id="@+id/clearLog"
+                android:title="@string/clear_log" />
+            <item
+                android:id="@+id/directSend"
+                android:title="@string/directCmd" />
+        </menu>
+    </item>
+     <item android:id="@+id/depSale"
+          android:showAsAction="always"
+          android:title="@string/chooseDep" />
+
+     <item android:id="@+id/Cmds"
+          android:icon="@android:drawable/ic_menu_report_image"
+          android:title="@string/fiscFunctions" />
+         <!-- android:showAsAction="always"> -->
+    <!--  <menu>
+
+         <item android:id="@+id/Zrep"
+               android:title="@string/Zreport" />
+         <item android:id="@+id/FULoadArticles"
+               android:icon="@android:drawable/ic_input_get"
+               android:title="@string/load_articles" />
+         <item android:id="FULoadDeps"
+               android:icon="@android:drawable/ic_input_get"
+               android:title="Зареди департаменти" />
+           </menu> -->
+
+
+     <item android:id="@+id/FU"
+          android:icon="@android:drawable/ic_menu_agenda"
+          android:title="@string/FD">
+         <!-- android:showAsAction="always"> -->            
+        <menu>
+            <item android:id="@+id/FUInfo"
+                  android:icon="@android:drawable/ic_menu_info_details"
+                  android:title="@string/conn_fp_info" />
+            <item android:id="@+id/scan"
+                  android:icon="@android:drawable/ic_menu_search"
+                  android:title="@string/connect" />
+            <item android:id="@+id/exit"                  
+                  android:title="@string/exit" />
+            <item android:id="@+id/discoverable"
+                  android:icon="@android:drawable/ic_menu_mylocation"
+                  android:title="@string/discoverable" />
+
+            <item android:id="@+id/test_FSERV_start"
+                  android:title="@string/FSStart" />
+            <item android:id="@+id/test_FSERV_stop"
+                  android:title="@string/FSStop" />
+            <item android:id="@+id/test_FSERV_create_freeSales"
+                  android:title="@string/FSCreateFiles" />
+        </menu>
+    </item>
+</menu>
